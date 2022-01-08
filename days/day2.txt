@@ -1,0 +1,13 @@
+00 Domi            BS 000050.32
+04 Onitama                   Arcane Wonders  Domi           
+10 Domi               000000.00
+00 Arcane Wonders  SS 000000.00
+09 Onitama                   Arcane Wonders  Mike           
+10 Arcane Wonders     000000.00
+00 Domi            BS 000050.32
+06 Domi               001000.00
+10 Domi               000000.00
+00 Deval           AA 003214.44
+02 Ziyyad             000000.00
+06 rainydays          000009.00
+10 Deval              000000.00

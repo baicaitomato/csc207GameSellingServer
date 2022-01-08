@@ -1,0 +1,53 @@
+MEETING ONE: SATURDAY MARCH 6
+
+Main Objects and Classes
+- User; To store account information
+- Game; To store game information
+
+Main Exceptions
+- PrivilegedTransactionException
+
+Some design patterns to possibly rule out:
+    - Singleton (Prof Mike hates it lol).
+    - Composite: I haven't noticed any data structures that might be like trees.
+    - Builder
+        - Used to construct each account
+        - The problem with this is that when accounts are initially created, only the username and beginning account balance
+          are required so a builder design pattern wouldn't be useful here.
+        - Although depending on how we save User and Game objects (serialization), it might be useful when we are loading in
+          previously saved accounts.
+
+Possible Design Patterns
+- MVC
+    - Model = User and Game objects
+    - View = Database
+    - Controller = daily.txt file parser
+- Observer
+    - Could be used to update the database:
+    - Observable = Model (User and Game)
+    - Observer = Controller
+        - Everytime an Observable is changed, the view (database) will be updated.
+
+Information Storage
+Method 1
+    - Using a single txt file to store the attributes of every user (one user per row).
+    - Using another txt file to store the attributes of every game (one user per row).
+Method 2
+    - Multiple txt files; one for each user and game.
+Method 3
+    - users.json: {"username": {"games": ["game1", "game2"],
+                                "balance": 0000,
+                                "account_type": "account type"}}
+    - games.json: {"game": [list of sellers]}
+Method 4
+    - Using serialization we can write objects into txt files and read them back into their respective object types.
+
+Extra Features
+- GUI front end (probably difficult)
+- Daily statistic report:
+    - Most bought game that day
+    - Hottest titles
+    - Most popular seller
+    - Amount of money spent
+    - Games on sale (auctioned sale)
+- Wishlist feature

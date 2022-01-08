@@ -1,0 +1,7 @@
+00 Domi            BS 000050.32
+08 Onitama                   Domi                           
+10 Domi               000000.00
+00 Deval           AA 003214.44
+05 Domi            Arcane Wonders  000005.99
+07 Deval              000000.00
+10 Deval              000000.00

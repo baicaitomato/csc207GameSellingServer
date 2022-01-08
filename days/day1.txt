@@ -1,0 +1,11 @@
+00 Deval           AA 003214.44
+01 rainydays       AA 008901.33
+01 Mike            AA 010234.44
+01 Ziyyad          AA 003313.93
+01 Domi            BS 000050.32
+01 Arcane Wonders  SS 042135.00
+01 BumblyTheCloud  FS 999999.99
+10 Deval              000000.00
+00 Arcane Wonders  SS 000000.00
+03 Onitama                   Arcane Wonders  30.00 005.99
+10 Arcane Wonders     000000.00
